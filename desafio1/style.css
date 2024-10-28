@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100vw;
+    background-color: black;
+    padding: 1vw;
+
+    & .container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        color: snow;
+    }
+
+    & .textodapagina{
+        width: 30vw;
+        color:pink
+    }
+
+    & .links{
+        width: 30vw;
+    }
+
+    & .links a{
+        text-decoration: none;
+        align-items: center;
+        color: snow;
+        font-size: 1.5vw;
+        margin: 1vw;
+    }
+
+    & .links a:hover{
+        opacity: 50%;
+        font-size: 1.4vw;
+    }
+}
+
+main{
+    width: 100vw;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .container2{
+        width: 50vw;
+        background: pink;
+        border-radius: 20px;
+        padding: 8vw;
+        margin: 5vw;
+        text-align: center;
+    }
+
+    & .container2 h1{
+        font-size: 5vw;
+        color: snow; 
+    }
+
+    & .container2 span{
+        font-size: 1.2vw;
+        color: black;
+    }
+
+    & .container2 button{
+        margin-top: 2vw;
+        background: black;
+        padding: 1vw;
+        border-radius: 1vw;
+        color: white;
+        border: none;
+        width: 8vw;
+        height: 8vh;
+    }
+}
+
+.container3{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .div1{
+        width: 15vw;
+        height: 16vh;
+        background: black;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 2vw;
+        margin: 2vw;
+    }
+
+    & .div1 h1{
+        color: pink;
+    }
+    & .div1 span{
+        color: snow;
+    }
+
+    & .div2{
+        width: 15vw;
+        height: 16vh;
+        background: black;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 2vw;
+        margin: 2vw;
+    }
+
+    & .div2 h1{
+        color: pink;
+    }
+    & .div2 span{
+        color: snow;
+    }
+
+    & .div3{
+        width: 15vw;
+        height: 16vh;
+        background: black;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 2vw;
+        margin: 2vw;
+    }
+
+    & .div3 h1{
+        color: pink;
+    }
+    & .div3 span{
+        color: snow;
+    }
+}
+
+.container4{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .div4{
+        width: 15vw;
+        height: 16vh;
+        background: black;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 2vw;
+        margin: 2vw;
+    }
+
+    & .div4 h1{
+        color: pink;
+    }
+    & .div4 span{
+        color: snow;
+    }
+
+    & .div5{
+        width: 15vw;
+        height: 16vh;
+        background: black;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 2vw;
+        margin: 2vw;
+    }
+    & .div5 h1{
+        color: pink;
+    }
+    & .div5 span{
+        color: snow;
+    }
+
+    & .div6{
+        width: 15vw;
+        height: 16vh;
+        background: black;
+        border-radius: 1vw;
+        text-align: center;
+        padding: 2vw;
+        margin: 2vw;
+    }
+
+    & .div6 h1{
+        color: pink;
+    }
+    & .div6 span{
+        color: snow;
+    }
+    
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+
+    & .copy{
+        background: black;
+    }
+
+    & .copy h3{
+        color: rgb(255, 105, 138);
+        text-align: center;
+        padding: 4vw;
+    }
+}
